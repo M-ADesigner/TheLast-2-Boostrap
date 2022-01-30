@@ -1,0 +1,81 @@
+
+
+/*---------------------------CSS GENERAL--------------------------*/
+
+.body .html{
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+
+  #navbar{
+    z-index: 1;
+}
+  
+
+
+/*------------------------CUSTOMIZE THE CAROUSEL------------------------------------ */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  .dividerPc {
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* Fin del content marketing */
+  
+
+  /*====================CUSTOM CARD==========================*/
+
+  .rounded-4 { border-radius: .5rem; }
+  .rounded-5 { border-radius: 1rem; }
+  
+
+
+  /*==================FOOTER===================*/
